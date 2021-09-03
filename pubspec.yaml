@@ -1,0 +1,53 @@
+name: user_profile_example
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  qr_code_scanner: ^0.5.2
+  table_calendar: ^3.0.2
+  flutter_barcode_scanner: ^2.0.0
+  custom_navigator: ^0.3.0
+  flutter_svg: ^0.18.0
+  syncfusion_flutter_calendar: ^19.2.56
+  qr_flutter: ^4.0.0
+  path_provider: 0.4.1
+  http: ^0.13.3
+  #handle dates
+  intl: ^0.17.0
+  firebase_auth: ^3.0.1
+  google_sign_in: ^5.0.7
+  #firebase_auth_web: ^3.0.0 
+  #cloud_firestore: ^2.4.0
+  #state management
+  provider: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/img/
+
+  fonts:
+    - family: CustomIcons
+      fonts:
+        - asset: assets/assets/fonts/CustomIcons.ttf
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/assets/fonts/SFProDisplay-Bold.otf
+          weight: 700
+        - asset: assets/assets/fonts/SFProDisplay-Semibold.otf
+          weight: 600
+        - asset: assets/assets/fonts/SFProDisplay-Regular.otf
+          weight: 400
+        - asset: assets/assets/fonts/SFProDisplay-Light.otf
+          weight: 300
